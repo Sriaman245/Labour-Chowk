@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(138, 246, 217),rgb(0, 207, 196),rgb(0, 216, 205));
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:300px 0px;
+}
+.container #worker{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 20px;
+    padding:60px;
+    margin:15px;
+}
+.container #worker:hover{
+    background-color: white;
+    box-shadow: 8px 8px 28px 3px black;
+}
+
+.container #employer{
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 20px;
+    padding:60px 30px;
+    margin:15px;
+}
+.container #employer:hover{
+    background-color: white;
+    box-shadow: 8px 8px 28px 3px black;
+    cursor: pointer;
+}
+.container h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    font-family:sans-serif;
+}

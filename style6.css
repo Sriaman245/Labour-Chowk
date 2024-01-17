@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: radial-gradient(circle,rgb(138, 246, 217),rgb(0, 207, 196),rgb(0, 216, 205));
+}
+.container {
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 8px 8px 28px 3px black;
+    margin: 50px auto;
+    padding: 40px;
+    width: 1200px;
+    height:800px;
+    border-radius: 20px;
+}
+
+.form input {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(1,179,170);
+    border-radius: 20px;
+    width: 250px;
+    margin: 30px 50px ;
+    padding: 8px;
+}
+.form  #address input{
+    width:960px;
+}
+.form .options{
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(1,179,170);
+    border-radius: 20px;
+    width: 250px;
+    margin: 30px 50px ;
+    padding: 8px;
+    color:grey;
+}
+.container h1 {
+    padding: 10px 10px;
+    text-align: center;
+    font-family:sans-serif ;
+}
+form #check{
+    padding:40px 50px;
+    font-family: sans-serif;
+}
+form .btn{
+    display: block;
+    width: 200px;
+    margin:30px auto;
+    border-radius:20px;
+    padding:12px 0px;
+    border:none;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    font-family:'Manrope',sans-serif ;
+    cursor: pointer;
+}
+.form label{
+    font-family: sans-serif;
+}
+.form .choose{
+    margin:5px;
+}
+.container h1 {
+    padding: 10px 10px;
+    text-align: center;
+    font-family:sans-serif ;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+.footer::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height:100%;
+    width: 100%;;
+    z-index:-1;
+}
+.footer .footer-content{
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-content .footer-nav{
+    margin:100px;
+}
+.footer .footer-content .footer-nav h4{
+    font-size: 35px;
+    color: white;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+.footer .footer-content .footer-nav ul li{
+    margin:13px;
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Manrope", "Manrope Placeholder", sans-serif;
+}
+.footer .footer-content .footer-nav ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.footer .footer-content .footer-contact{
+    margin:100px;
+}
+.footer .footer-content .footer-contact h4{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+.footer .footer-content .footer-contact p{
+    margin-top:10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: "Manrope", "Manrope Placeholder", sans-serif;
+}
+.footer .footer-content .footer-social{
+    margin:100px;
+}
+.footer .footer-content .footer-social h4{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+.footer .footer-content .footer-social ul li{
+    margin:13px;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Manrope", "Manrope Placeholder", sans-serif;
+}
+.footer .footer-content .footer-social ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.footer .footer-bottom{
+    color:white;
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: "Manrope", "Manrope Placeholder", sans-serif;
+}
+

@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: radial-gradient(circle,rgb(138, 246, 217),rgb(0, 207, 196),rgb(0, 216, 205));
+}
+.container {
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 8px 8px 28px 3px black;
+    margin: 100px auto;
+    padding: 40px;
+    width: 400px;
+    height:450px;
+    border-radius: 20px;
+}
+
+.form input {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(1,179,170);
+    display: block;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px auto;
+    padding: 8px;
+}
+
+.container h1 {
+    padding: 10px 10px;
+    text-align: center;
+    font-family:sans-serif ;
+}
+/* .form a {
+    display: block;
+    width: 250px;
+    margin:40px auto;
+    border-radius:20px;
+    border:none;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    padding:8px 0px;
+    font-family:'Manrope',sans-serif ;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center
+   
+} */
+.form .btn {
+    display: block;
+    width: 250px;
+    margin:30px auto;
+    border-radius:20px;
+    padding:8px 0px;
+    border:none;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    font-family:'Manrope',sans-serif ;
+    cursor: pointer;
+}
+.form p{
+    text-align: center;
+    font-family:'Manrope',sans-serif ;
+}
+.container p{
+    text-align: center;
+    font-family:'Manrope',sans-serif ;
+}
+.container p a{
+    text-decoration: none;
+    color:rgb(1,179,170);
+    font-size:17px;
+}

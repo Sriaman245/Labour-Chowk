@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register| LabourChowk.com</title>
+  <link rel="stylesheet" href="style6.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Register as a Worker</h1>
+    <form action="">
+      <div class="form">
+        <input type="text" name="name" placeholder="First Name" required="required">
+        <input type="text" name="name" placeholder="Middle Name">
+        <input type="text" name="name" placeholder="Last Name" required="required">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" maxlength="10" placeholder="Phone No." required="required">
+        <select name="gender" class="options">
+          <option value="select">Gender</option>
+          <option value="A">Male</option>
+          <option value="B">Female</option>
+          <option value="C">Other</option>
+        </select>
+        <div id="address">
+          <input type="text" name="Address" placeholder="Address" required="required">
+        </div>
+        <select name="designation" class="options">
+          <option value="select">Work As A</option>
+          <option value="A">Labour</option>
+          <option value="B">Mason</option>
+          <option value="C">Carpenter</option>
+          <option value="D">Painter</option>
+          <option value="E">Electrician</option>
+          <option value="F">Plumber</option>
+          <option value="G">Welder</option>
+          <option value="H">Foreman</option>
+          <option value="I">Engineer</option>
+        </select>
+        <label for="uploadBtn">Upload Your Image</label>
+          <input class="choose" type="file" id="uploadBtn">
+      </div>
+      <div id="check">
+        <input type="checkbox" name="conifrm" required="required">
+        <label for="box">I hereby declare that all the infromation given above is true to the best of my
+          knowledge</label>
+      </div>
+      <button class="btn">Register</button>
+
+    </form>
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-nav">
+            <h4>Navigation</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <!-- <p>
+                1234 Innovation Ave, Suite 567<br>
+                Techland, TL 54321<br>
+                United States
+            </p> -->
+            <p>Email: info@labourchowk.com</p>
+        </div>
+        <div class="footer-social">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Labour Chowk. All rights reserved.</p>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</footer>
+</body>
+
+</html>
